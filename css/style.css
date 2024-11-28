@@ -1,0 +1,46 @@
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 5% 10%;
+  background-image: linear-gradient(120deg, rgb(0, 0, 0), rgb(100, 100, 100));
+}
+
+main {
+  background-color: rgb(160, 160, 160);
+  padding: 4%;
+  border: solid rgb(74, 74, 74) 1px;
+  border-radius: 20px;
+  box-shadow: 5px 10px rgb(12, 12, 12);
+}
+
+#top {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 10rem;
+  margin: 15px;
+  border: solid 1px;
+  border-radius: 20px;
+}
+
+.description {
+  width: 50%;
+  height: 50%;
+}
+
+#top .description h1 {
+  font-size: 200%;
+}
+
+#mid {
+  display: flex;
+  justify-content: end;
+}
